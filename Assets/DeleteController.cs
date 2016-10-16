@@ -28,33 +28,3 @@ public class DeleteController : MonoBehaviour {
 
 	}
 }
-
-/*
-		//Debug.Log (this.transform.position.z);
-		coins = GameObject.FindGameObjectsWithTag ("CoinTag");
-		foreach (GameObject coin in coins) {
-			//Debug.Log(coin.transform.position.z);
-			if ((this.transform.position.z -1) > coin.transform.position.z) {
-				Destroy(coin);
-			}
-			 
-		}
-
-		trafficCones = GameObject.FindGameObjectsWithTag ("TrafficConeTag");
-		foreach (GameObject trafficCone in trafficCones) {
-			//Debug.Log(coin.transform.position.z);
-			if ((this.transform.position.z -1) > trafficCone.transform.position.z) {
-				Destroy(trafficCone);
-			}
-			 
-		}
-
-		cars = GameObject.FindGameObjectsWithTag ("CarTag");
-		foreach (GameObject car in cars) {
-			//Debug.Log(coin.transform.position.z);
-			if ((this.transform.position.z -1) > car.transform.position.z) {
-				Destroy(car);
-			}
-			 
-		}
-*/
