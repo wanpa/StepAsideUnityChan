@@ -21,7 +21,7 @@ public class DeleteController : MonoBehaviour {
 		if (this.gameObject.tag == "CoinTag" || this.gameObject.tag == "CarTag" || this.gameObject.tag == "TrafficConeTag") {
 
 			Debug.Log (this.gameObject.tag + this.transform.position.z);
-			if (unitychan.transform.position.z > this.transform.position.z) {
+			if ((unitychan.transform.position.z-1) > this.transform.position.z) {
 				Destroy(this.gameObject);
 			}
 		}
