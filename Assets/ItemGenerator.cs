@@ -41,10 +41,8 @@ public class ItemGenerator : MonoBehaviour {
 		}
 	}
 
-	void ItemCreat (float i)
-	{
-
-		if (startPos <= i && i <= goalPos) {
+	void ItemCreat (float i){
+		if (startPos <= i && i <= goalPos){
 			int num = Random.Range (0, 10);
 			if (num <= 1) {
 				//コーンをx軸方向に一直線に生成
